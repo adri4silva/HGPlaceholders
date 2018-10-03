@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Inn-UG-Y2D">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Inn-UG-Y2D">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -14,16 +11,16 @@
             <objects>
                 <tableViewController id="oTu-Xb-kSL" customClass="ViewController" customModule="HGPlaceholders_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="101" sectionHeaderHeight="28" sectionFooterHeight="28" id="Lmu-xp-sfx" customClass="ProjectNameTableView" customModule="HGPlaceholders_Example" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="j2B-Gf-5Dp">
-                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" red="0.047058823530000002" green="0.63137254899999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         </view>
                         <view key="tableFooterView" contentMode="scaleToFill" id="QCr-ym-tsQ">
-                            <rect key="frame" x="0.0" y="706" width="375" height="44"/>
+                            <rect key="frame" x="0.0" y="706" width="600" height="44"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" red="0.13725490200000001" green="1" blue="0.51372549020000002" alpha="1" colorSpace="calibratedRGB"/>
                         </view>
@@ -31,14 +28,14 @@
                             <tableViewSection headerTitle="Header" footerTitle="Footer" id="IN8-W0-OXZ">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" textLabel="LMM-dP-dwI" style="IBUITableViewCellStyleDefault" id="0i0-O1-VsE">
-                                        <rect key="frame" x="0.0" y="72" width="375" height="101"/>
+                                        <rect key="frame" x="0.0" y="72" width="600" height="101"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0i0-O1-VsE" id="Ha2-QN-Dek">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="100.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="100.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LMM-dP-dwI">
-                                                    <rect key="frame" x="15" y="0.0" width="345" height="100.5"/>
+                                                    <rect key="frame" x="20" y="0.0" width="560" height="100.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <attributedString key="attributedText">
                                                         <fragment content="tableView">
@@ -105,14 +102,14 @@
                                         <color key="backgroundColor" red="0.1215686275" green="0.12549019610000001" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" textLabel="dQ9-MY-0VG" style="IBUITableViewCellStyleDefault" id="KnK-d4-2FA">
-                                        <rect key="frame" x="0.0" y="173" width="375" height="101"/>
+                                        <rect key="frame" x="0.0" y="173" width="600" height="101"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KnK-d4-2FA" id="nFN-Ok-bh1">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="100.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="100.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dQ9-MY-0VG">
-                                                    <rect key="frame" x="15" y="0.0" width="345" height="100.5"/>
+                                                    <rect key="frame" x="20" y="0.0" width="560" height="100.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <attributedString key="attributedText">
                                                         <fragment content="tableView">
@@ -164,14 +161,14 @@
                                         <color key="backgroundColor" red="0.1215686275" green="0.12549019610000001" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" textLabel="5Hi-nD-8Sm" style="IBUITableViewCellStyleDefault" id="lxZ-5t-aPj">
-                                        <rect key="frame" x="0.0" y="274" width="375" height="101"/>
+                                        <rect key="frame" x="0.0" y="274" width="600" height="101"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lxZ-5t-aPj" id="qdg-J1-qUZ">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="100.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="100.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5Hi-nD-8Sm">
-                                                    <rect key="frame" x="15" y="0.0" width="345" height="100.5"/>
+                                                    <rect key="frame" x="20" y="0.0" width="560" height="100.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <attributedString key="attributedText">
                                                         <fragment content="tableView">
@@ -238,14 +235,14 @@
                                         <color key="backgroundColor" red="0.1215686275" green="0.12549019610000001" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" textLabel="Isg-ZW-qNr" style="IBUITableViewCellStyleDefault" id="flS-00-Eei">
-                                        <rect key="frame" x="0.0" y="375" width="375" height="101"/>
+                                        <rect key="frame" x="0.0" y="375" width="600" height="101"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="flS-00-Eei" id="rrf-E1-7ME">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="100.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="100.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Isg-ZW-qNr">
-                                                    <rect key="frame" x="15" y="0.0" width="345" height="100.5"/>
+                                                    <rect key="frame" x="20" y="0.0" width="560" height="100.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <attributedString key="attributedText">
                                                         <fragment content="tableView">
@@ -312,14 +309,14 @@
                                         <color key="backgroundColor" red="0.1215686275" green="0.12549019610000001" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" textLabel="9jw-kP-asW" style="IBUITableViewCellStyleDefault" id="yXS-5b-yVu">
-                                        <rect key="frame" x="0.0" y="476" width="375" height="101"/>
+                                        <rect key="frame" x="0.0" y="476" width="600" height="101"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yXS-5b-yVu" id="L33-D8-PIY">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="100.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="100.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9jw-kP-asW">
-                                                    <rect key="frame" x="15" y="0.0" width="345" height="100.5"/>
+                                                    <rect key="frame" x="20" y="0.0" width="560" height="100.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <attributedString key="attributedText">
                                                         <fragment content="tableView">
@@ -386,7 +383,7 @@
                                         <color key="backgroundColor" red="0.1215686275" green="0.12549019610000001" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" textLabel="Lwz-Mx-STr" style="IBUITableViewCellStyleDefault" id="dDl-Hg-vfo">
-                                        <rect key="frame" x="0.0" y="577" width="375" height="101"/>
+                                        <rect key="frame" x="0.0" y="577" width="600" height="101"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dDl-Hg-vfo" id="kXd-dL-Z75">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="100.5"/>
@@ -502,7 +499,7 @@ tableView</string>
             <objects>
                 <collectionViewController id="cWY-e2-k1d" customClass="CollectionViewController" customModule="HGPlaceholders_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="uLL-L9-RM0" customClass="CollectionView" customModule="HGPlaceholders">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.5" minimumInteritemSpacing="0.0" id="Ksa-kn-WCf">
@@ -537,8 +534,8 @@ tableView</string>
                                     <outlet property="titleLabel" destination="hra-aZ-nFJ" id="uMW-yY-AQL"/>
                                 </connections>
                             </collectionViewCell>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CustomPlaceholderCell" id="U2D-XM-gGF" userLabel="XibCell" customClass="PlaceholderCollectionViewCell" customModule="HGPlaceholders">
-                                <rect key="frame" x="225" y="50" width="150" height="200"/>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CustomPlaceholderCell" id="U2D-XM-gGF" userLabel="XibCell" customClass="HGPlaceholderCollectionViewCell" customModule="HGPlaceholders">
+                                <rect key="frame" x="150" y="50" width="150" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="150" height="200"/>
@@ -563,12 +560,12 @@ tableView</string>
                             </collectionViewCell>
                         </cells>
                         <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Header" id="aBg-DC-Npm">
-                            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
                             <autoresizingMask key="autoresizingMask"/>
                             <color key="backgroundColor" red="0.13725490200000001" green="1" blue="0.51372549020000002" alpha="1" colorSpace="calibratedRGB"/>
                         </collectionReusableView>
                         <collectionReusableView key="sectionFooterView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Footer" id="d2a-vB-xCN">
-                            <rect key="frame" x="0.0" y="250" width="375" height="50"/>
+                            <rect key="frame" x="0.0" y="250" width="600" height="50"/>
                             <autoresizingMask key="autoresizingMask"/>
                             <color key="backgroundColor" red="0.13725490200000001" green="1" blue="0.51372549020000002" alpha="1" colorSpace="calibratedRGB"/>
                         </collectionReusableView>

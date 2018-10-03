@@ -124,7 +124,7 @@ open class CollectionView: UICollectionView {
      */
     private func setup() {
         // register the placeholder view cell
-        register(cellType: PlaceholderCollectionViewCell.self)
+        register(cellType: HGPlaceholderCollectionViewCell.self)
         defaultAlwaysBounceVertical = alwaysBounceVertical
         defaultLayout = collectionViewLayout
         customSetup()

@@ -181,7 +181,7 @@ extension PlaceholderDataSourceDelegate: UICollectionViewDataSource {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
 
         // If the cell does not inherit from PlaceholderTableViewCell, the data and the style can't be applied
-        guard let placeholderCollectionViewCell = cell as? PlaceholderCollectionViewCell else {
+        guard let placeholderCollectionViewCell = cell as? HGPlaceholderCollectionViewCell else {
             return cell
         }
         
