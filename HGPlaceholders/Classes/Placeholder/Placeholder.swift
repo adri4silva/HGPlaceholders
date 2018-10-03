@@ -44,7 +44,7 @@ public struct Placeholder {
     /// - Parameters:
     ///   - cellIdentifier: The identifier of the cell to use as a placeholder
     ///   - key: the unique key of the placeholder
-    public init(cellIdentifier: String, key: PlaceholderKey) {
+    public init(cellIdentifier: String? = nil, key: PlaceholderKey) {
         self.key = key
         self.cellIdentifier = cellIdentifier
     }
